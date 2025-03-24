@@ -21,7 +21,7 @@ gem 'yard'
 gem 'tilt'
 
 gem 'github-markup'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.18.4'
 gem 'pygments.rb'
 
 gem 'concurrent-ruby'

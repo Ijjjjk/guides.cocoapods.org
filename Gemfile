@@ -4,7 +4,7 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}.git" }
 
 ruby '3.1.1'
 
-gem 'middleman', '~> 4.4'
+gem 'middleman', '~> 4.6', '>= 4.6.0'
 
 gem 'middleman-gh-pages', git: 'https://github.com/CocoaPods/middleman-gh-pages.git'
 gem 'middleman-livereload'

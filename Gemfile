@@ -7,7 +7,7 @@ ruby '3.1.1'
 gem 'middleman', '~> 4.4'
 
 gem 'middleman-gh-pages', git: 'https://github.com/CocoaPods/middleman-gh-pages.git'
-gem 'middleman-livereload'
+gem 'middleman-livereload', '>= 3.5.0'
 gem 'middleman-sprockets'
 gem 'middleman-syntax'
 
@@ -21,7 +21,7 @@ gem 'yard'
 gem 'tilt'
 
 gem 'github-markup'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.18.9'
 gem 'pygments.rb'
 
 gem 'concurrent-ruby'

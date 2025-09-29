@@ -4,12 +4,12 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}.git" }
 
 ruby '3.1.1'
 
-gem 'middleman', '~> 4.4'
+gem 'middleman', '~> 4.6', '>= 4.6.0'
 
 gem 'middleman-gh-pages', git: 'https://github.com/CocoaPods/middleman-gh-pages.git'
-gem 'middleman-livereload'
+gem 'middleman-livereload', '>= 3.5.0'
 gem 'middleman-sprockets'
-gem 'middleman-syntax'
+gem 'middleman-syntax', '>= 3.4.0'
 
 gem 'rake'
 gem 'redcarpet', github: 'vmg/redcarpet', ref: 'cef9abbcc411d07fd1b8c80e348a80efde2db323'
